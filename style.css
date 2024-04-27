@@ -9,7 +9,8 @@
 @media screen and (max-width: 2000px){
     body{
         background-color: hsl(0, 0%, 98%);
-        padding: 20px;
+        padding-top: 20px;
+        max-height: 90vh;
     }
     
     main{
@@ -67,15 +68,26 @@
         gap: 20px;
     }
     
+    footer{
+        width: 100%;
+        background-color: rgba(218, 165, 32, 0.521);
+        margin-top: 100px;
+        padding: 20px;
+        font-size: 18px;
+        text-align: center;
+        font-weight: bolder;
+    }
+
     .attribution a{
-        color: goldenrod;
+        color: rgb(78, 57, 5);
     }
     
 }
 
-@media screen and (max-width: 400px){
+@media screen and (max-width: 500px){
     .content{
         display: flex;
         flex-direction: column;
     }
+
 }
