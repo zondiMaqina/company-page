@@ -37,11 +37,11 @@
     img{
         max-width: 80px;
         max-height: 80px;
-        margin-left: 105px;
+        margin-left: 220px;
     }
     
     div{
-        width: 250px;
+        max-width: 350px;
         height: fit-content;
         padding: 20px;
         display: flex;
@@ -73,7 +73,7 @@
     
 }
 
-@media screen and (max-width: 900px){
+@media screen and (max-width: 400px){
     .content{
         display: flex;
         flex-direction: column;
